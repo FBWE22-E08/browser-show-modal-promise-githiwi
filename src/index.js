@@ -8,7 +8,7 @@ const boxPromise = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("block");
-    }, 60000);
+    },60000);
   });
 };
 
